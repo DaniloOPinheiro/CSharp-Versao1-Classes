@@ -1,4 +1,4 @@
-﻿using CSharpV1Classes.CSharpV1;
+﻿using CSharpV1Classes.Classes;
 
 namespace CSharpV1Classes
 {
@@ -6,22 +6,22 @@ namespace CSharpV1Classes
     {
         static void Main(string[] args)
         {
-            // Classe instânciada à referência.
-            TiposReferencia.TipoRef rtA = new TiposReferencia.TipoRef();
+            // // Classe instânciada à referência.
+            // TiposReferencia.TipoRef rtA = new TiposReferencia.TipoRef();
 
-            // Classe instância atribuindo a um objeto nova referência.
-            TiposReferencia.TipoRef rtB = rtA;
+            // // Classe instância atribuindo a um objeto nova referência.
+            // TiposReferencia.TipoRef rtB = rtA;
             
-            // Imprimindo mensagem da referência.
-            System.Console.WriteLine("Recebendo o tipo referência : " + rtB);
-            System.Console.WriteLine("------------------------------------");
+            // // Imprimindo mensagem da referência.
+            // System.Console.WriteLine("Recebendo o tipo referência : " + rtB);
+            // System.Console.WriteLine("------------------------------------");
 
             //Declarando uma classe
-            DeclaracaoDeClasse declaracao = new DeclaracaoDeClasse();
+            // DeclaracaoDeClasse declaracao = new DeclaracaoDeClasse();
 
-            // Imprimindo mensagem de classe.
-            System.Console.WriteLine("Classe declarada: " + declaracao);
-            System.Console.WriteLine("------------------------------------");
+            // // Imprimindo mensagem de classe.
+            // System.Console.WriteLine("Classe declarada: " + declaracao);
+            // System.Console.WriteLine("------------------------------------");
 
             // Primeiro objeto
             CriandoObjetos coA = new CriandoObjetos();
