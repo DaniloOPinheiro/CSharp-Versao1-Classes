@@ -1,4 +1,4 @@
-namespace CSharpV1Classes.CSharpV1
+namespace CSharpV1Classes.Classes
 {
     public class DeclaracaoDeClasse
     {
